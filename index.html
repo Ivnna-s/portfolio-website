@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ivanna Erica Catanio - Portfolio</title>
+    <meta name="description" content="Portfolio of Ivanna Erica Catanio, Computer Engineering graduate specializing in web development and AI tools.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">Ivanna<span class="logo-dot">.</span></div>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="navLinks">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <a href="#contact" class="btn nav-cta">Let's Talk</a>
+    </nav>
+
+    <!-- ===== Hero ===== -->
+    <section class="hero" id="home">
+        <div class="hero-text">
+            <p class="badge"><span class="badge-dot"></span> Available for freelance work</p>
+            <h1>Hi, I'm Ivanna Erica Catanio<br><span>I build thoughtful web experiences.</span></h1>
+            <p class="hero-desc">
+                Computer Engineering graduate who enjoys turning complex problems into clean,
+                usable interfaces, backed by hands-on experience in web development and a
+                growing interest in emerging technologies like AI.
+            </p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn">View My Work</a>
+                <a href="#contact" class="btn secondary">Get In Touch</a>
+            </div>
+        </div>
+
+        <div class="hero-visual">
+            <div class="blob blob-1" aria-hidden="true"></div>
+            <div class="blob blob-2" aria-hidden="true"></div>
+
+            <div class="code-panel" aria-hidden="true">
+                <div class="code-panel-bar">
+                    <span class="dot dot-red"></span>
+                    <span class="dot dot-yellow"></span>
+                    <span class="dot dot-green"></span>
+                    <span class="code-panel-title">portfolio.jsx</span>
+                </div>
+                <pre class="code-panel-body"><code><span class="c-kw">const</span> <span class="c-var">developer</span> = {
+  <span class="c-prop">name</span>: <span class="c-str">"Ivanna Erica Catanio"</span>,
+  <span class="c-prop">role</span>: <span class="c-str">"Web Developer"</span>,
+  <span class="c-prop">focus</span>: [<span class="c-str">"HTML"</span>, <span class="c-str">"CSS"</span>, <span class="c-str">"JavaScript"</span>],
+  <span class="c-prop">learning</span>: <span class="c-bool">true</span><span class="cursor-block">&nbsp;</span>
+};</code></pre>
+            </div>
+
+            <span class="chip chip-1">JavaScript</span>
+            <span class="chip chip-2">AI Tools</span>
+            <span class="chip chip-3">UI/UX</span>
+        </div>
+    </section>
+
+    <!-- ===== Tools strip ===== -->
+    <section class="tools-strip">
+        <p class="tools-label">Tools I work with</p>
+        <ul class="tools-list">
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>Java</li>
+            <li>C++</li>
+            <li>Git</li>
+            <li>Canva</li>
+        </ul>
+    </section>
+
+    <!-- ===== About ===== -->
+    <section class="about" id="about">
+        <div class="about-photo">
+            <div class="photo-frame">
+                <img src="images/profile.jpg" alt="Portrait photo of Ivanna Erica Catanio" width="320" height="380">
+            </div>
+        </div>
+        <div class="about-content">
+            <p class="eyebrow">About Me</p>
+            <h2>A little about me</h2>
+            <p>
+                I'm a Computer Engineering graduate from STI College Las Piñas with internship
+                experience in web development, UI/UX design, and website maintenance. I enjoy
+                solving technical problems through programming, from building responsive front-end
+                interfaces to developing autonomous robotics solutions. I continuously explore
+                emerging technologies, including AI, to enhance efficiency, streamline workflows,
+                and support high-quality results.
+            </p>
+            <div class="about-info">
+                <div class="info-card">
+                    <span class="info-label">Location</span>
+                    <span class="info-value">Parañaque City, PH</span>
+                </div>
+                <div class="info-card">
+                    <span class="info-label">Phone</span>
+                    <span class="info-value">0967 368 2301</span>
+                </div>
+                <div class="info-card">
+                    <span class="info-label">Email</span>
+                    <span class="info-value">ivannacatanio16@gmail.com</span>
+                </div>
+                <div class="info-card">
+                    <span class="info-label">Status</span>
+                    <span class="info-value">Open to work</span>
+                </div>
+            </div>
+            <a href="resume.pdf" class="btn" download>Download Resume</a>
+        </div>
+    </section>
+
+    <!-- ===== Experience ===== -->
+    <section class="experience" id="experience">
+        <p class="eyebrow center">Experience</p>
+        <h2 class="center">Where I've worked</h2>
+        <div class="experience-list">
+            <div class="experience-card">
+                <div class="exp-head">
+                    <h3>Web Development Intern</h3>
+                    <span class="exp-meta">Creotec Philippines Inc. &middot; 2026</span>
+                </div>
+                <ul class="exp-points">
+                    <li>Developed and maintained responsive webpages using HTML, CSS, and JavaScript.</li>
+                    <li>Improved the UI/UX of the Philippine Robotics Cup competition website.</li>
+                    <li>Integrated website features with Google Sheets and administrative tools.</li>
+                    <li>Performed testing, debugging, and maintenance to improve functionality.</li>
+                    <li>Created promotional videos and digital content using CapCut.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== Skills ===== -->
+    <section class="skills" id="skills">
+        <p class="eyebrow center">What I Do</p>
+        <h2 class="center">Skills &amp; focus areas</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <div class="skill-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+                </div>
+                <h3>Frontend Development</h3>
+                <p>Building responsive interfaces with HTML, CSS, and JavaScript.</p>
+                <div class="skill-bar"><span style="width: 85%"></span></div>
+                <span class="skill-level">Advanced</span>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="13.5" cy="6.5" r=".5"></circle><circle cx="17.5" cy="10.5" r=".5"></circle><circle cx="8.5" cy="7.5" r=".5"></circle><circle cx="6.5" cy="12.5" r=".5"></circle><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926 0 1.648-.746 1.648-1.688 0-.437-.18-.835-.437-1.125-.29-.289-.438-.652-.438-1.125a1.64 1.64 0 0 1 1.668-1.668h1.996c3.051 0 5.555-2.503 5.555-5.554C22 6.5 17.5 2 12 2z"></path></svg>
+                </div>
+                <h3>UI/UX &amp; Maintenance</h3>
+                <p>Improving usability and keeping live websites tested, debugged, and running smoothly.</p>
+                <div class="skill-bar"><span style="width: 75%"></span></div>
+                <span class="skill-level">Intermediate</span>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path></svg>
+                </div>
+                <h3>Programming Languages</h3>
+                <p>Writing Python, Java, and C++ for coursework, robotics, and personal projects.</p>
+                <div class="skill-bar"><span style="width: 70%"></span></div>
+                <span class="skill-level">Intermediate</span>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l2.5 6.5L21 11l-6.5 2.5L12 20l-2.5-6.5L3 11l6.5-2.5L12 2z"></path></svg>
+                </div>
+                <h3>AI &amp; Creative Tools</h3>
+                <p>Using ChatGPT, Gemini, Claude, CapCut, and Canva to speed up development and content creation.</p>
+                <div class="skill-bar"><span style="width: 80%"></span></div>
+                <span class="skill-level">Everyday Use</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== Projects ===== -->
+    <section class="projects" id="projects">
+        <p class="eyebrow center">Latest Work</p>
+        <h2 class="center">A few things I've built</h2>
+        <div class="projects-grid">
+            <article class="project-card">
+                <div class="project-thumb thumb-1">
+                    <span>Project Preview</span>
+                </div>
+                <div class="project-body">
+                    <h3>Philippine Robotics Cup Website</h3>
+                    <p>Improved the UI/UX, navigation, and overall functionality of the official competition website during my internship at Creotec Philippines Inc.</p>
+                    <ul class="tag-list">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>Google Sheets API</li>
+                    </ul>
+                </div>
+            </article>
+            <article class="project-card">
+                <div class="project-thumb thumb-2">
+                    <span>Project Preview</span>
+                </div>
+                <div class="project-body">
+                    <h3>NEEMBOT &mdash; Autonomous Pesticide Spraying Robot</h3>
+                    <p>My bachelor's thesis: an autonomous agricultural robot that detects and sprays pests using computer vision and sensor data.</p>
+                    <ul class="tag-list">
+                        <li>Raspberry Pi</li>
+                        <li>Arduino</li>
+                        <li>Computer Vision</li>
+                        <li>Python</li>
+                    </ul>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- ===== Certifications ===== -->
+    <section class="certifications">
+        <p class="eyebrow center">Certifications</p>
+        <h2 class="center">Certifications &amp; training</h2>
+        <ul class="cert-list">
+            <li>
+                <span class="cert-name">AWS Academy Graduate &mdash; Cloud Foundations</span>
+                <span class="cert-date">2025</span>
+            </li>
+            <li>
+                <span class="cert-name">EC-Council Cyber Security Certification</span>
+                <span class="cert-date">January 2025</span>
+            </li>
+            <li>
+                <span class="cert-name">Java Fundamentals</span>
+                <span class="cert-date">January 2023</span>
+            </li>
+            <li>
+                <span class="cert-name">Java Fundamentals</span>
+                <span class="cert-date">June 2023</span>
+            </li>
+        </ul>
+    </section>
+
+    <!-- ===== Testimonials ===== -->
+    <section class="testimonials">
+        <p class="eyebrow center">Kind Words</p>
+        <h2 class="center">What people say</h2>
+        <div class="testimonials-grid">
+            <blockquote class="testimonial-card">
+                <p>"Ivanna is easy to work with and always reliable. She takes feedback well and gets tasks done without needing to be followed up on."</p>
+                <footer>
+                    <span class="t-name">Placeholder Name</span>
+                    <span class="t-role">Manager, Creotec Philippines Inc.</span>
+                </footer>
+            </blockquote>
+            <blockquote class="testimonial-card">
+                <p>"She's dependable and communicates clearly, which made it easy to hand her tasks and trust they'd get done right."</p>
+                <footer>
+                    <span class="t-name">Placeholder Name</span>
+                    <span class="t-role">Manager, Creotec Philippines Inc.</span>
+                </footer>
+            </blockquote>
+        </div>
+        <p class="projects-note">Swap in real quotes from classmates, professors, or collaborators when you have them.</p>
+    </section>
+
+    <!-- ===== Contact ===== -->
+    <section class="contact" id="contact">
+        <p class="eyebrow center">Get In Touch</p>
+        <h2 class="center">Let's build something great</h2>
+        <p class="contact-desc">Have a project in mind, or just want to say hi? My inbox is open.</p>
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ivannacatanio16@gmail.com" class="btn contact-btn" target="_blank" rel="noopener">Say Hello</a>
+        <div class="socials">
+            <a href="https://github.com/Ivnna-s" aria-label="GitHub" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.58 2 12.26c0 4.54 2.87 8.39 6.84 9.75.5.1.68-.22.68-.5 0-.24-.01-.87-.01-1.71-2.78.62-3.37-1.36-3.37-1.36-.45-1.18-1.11-1.49-1.11-1.49-.91-.64.07-.63.07-.63 1 .07 1.53 1.05 1.53 1.05.89 1.56 2.34 1.11 2.91.85.09-.66.35-1.11.63-1.37-2.22-.26-4.56-1.14-4.56-5.06 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.31.1-2.73 0 0 .84-.27 2.75 1.05a9.3 9.3 0 0 1 5 0c1.91-1.32 2.75-1.05 2.75-1.05.55 1.42.2 2.47.1 2.73.64.72 1.03 1.63 1.03 2.75 0 3.93-2.34 4.79-4.57 5.05.36.32.68.94.68 1.9 0 1.37-.01 2.47-.01 2.81 0 .28.18.61.69.5A10.02 10.02 0 0 0 22 12.26C22 6.58 17.52 2 12 2z"></path></svg></a>
+            <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.61 0 4.28 2.38 4.28 5.47v6.27zM5.34 7.43a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0 4.14zM7.12 20.45H3.56V9h3.56v11.45z"></path></svg></a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Ivanna Erica Catanio. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
